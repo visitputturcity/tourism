@@ -1,0 +1,57 @@
+body {
+    background-color: #f5f5f5;
+    color: #000;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #edd9ec;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+h2 {
+    color: #000;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.place, .celebrity {
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    max-width: 800px;
+}
+
+.place img, .celebrity img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+iframe {
+    width: 100%;
+    height: 400px;
+    border: none;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.celebrity:hover {
+    border-color: red;
+    background-color: #e0e0e0;
+    transition: border-color 0.3s, background-color 0.3s;
+}
